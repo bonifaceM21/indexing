@@ -1,0 +1,18 @@
+fruits =list(("8", "banana", "cherry"))
+print(fruits)
+
+list2=[1,2,3,4,["apple","orange"],[True,False]]
+print(list2)
+fruits=["apple","banana","orange"]
+print(fruits[-1])
+fruits=["apple","banana","orange"]
+
+if"apple" in fruits:
+  print("Yes,'apple' is in the fruits list")
+fruits=["apple","banana","cherry","orange","kiwi","mango"]
+fruits[1]="blackcurrant"
+fruits[1:3]=["watermelon"]
+fruits.insert(2,"passion")
+fruits.append("lemon")
+print(fruits)
+
